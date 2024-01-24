@@ -8,8 +8,6 @@ Share Pear is a platform built with Astro, Netlify On-Demand Builders, and Edge
 Functions to consume markdown content and generate public HTML pages from that
 content!
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b15d7292-3501-4174-9510-d09e1dcae966/deploy-status)](https://app.netlify.com/sites/share-pear/deploys)
-
 ### 🏃‍♂️ How to run the repo locally
 
 1. Clone the repo

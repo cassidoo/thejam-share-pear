@@ -2,7 +2,7 @@
 const { title } = Astro.props;
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
@@ -12,21 +12,21 @@ const { title } = Astro.props;
 
 		<!-- OG -->
 		<!-- TODO: Add OG images and final site URL -->
-		<meta property="og:title" content="Brainstory Idea Preview" />
-		<meta property="og:site_name" content="Brainstory Idea Preview" />
+		<meta property="og:title" content="Share Pear Preview" />
+		<meta property="og:site_name" content="Share Pear Preview" />
 		<!-- <meta property="og:url" content="" /> -->
 		<meta
 			property="og:description"
-			content="Check out a Brainstory idea before giving feedback."
+			content="Check out this thing on Share Pear!"
 		/>
 		<meta property="og:type" content="website" />
 		<!-- <meta property="og:image" content="" /> -->
 		<meta property="twitter:card" content="summary_large_image" />
 		<!-- <meta property="twitter:url" content="" /> -->
-		<meta property="twitter:title" content="Contenda Blog Preview" />
+		<meta property="twitter:title" content="Share Pear Preview" />
 		<meta
 			property="twitter:description"
-			content="Check out a Brainstory idea before giving feedback."
+			content="Check out this thing on Share Pear!"
 		/>
 		<!-- <meta
 			property="twitter:image"
@@ -41,9 +41,9 @@ const { title } = Astro.props;
 	</head>
 	<body>
 		<nav>
-			<a href="https://brainstory.ai"><img src="/logo.png" /></a>
-			<a href="https://app.brainstory.ai" class="link-button">
-				Give Brainstory a Try!
+			<a href="https://thejam.dev"><img src="/logo.png" /></a>
+			<a href="https://thejam.dev" class="link-button">
+				Go watch the talks
 			</a>
 		</nav>
 		<main>
@@ -53,12 +53,12 @@ const { title } = Astro.props;
 </html>
 <style is:global>
 	:root {
-		--dark-bg: #d6d3d1;
+		--dark-bg: #b4050c;
 		--light-bg: #ffffff;
 		--blue: #4682b4;
-		--green: #ec4899;
-		--buttons: #ec4899;
-		--buttonhover: #be185d;
+		--green: #b92e33;
+		--buttons: #231f20;
+		--buttonhover: #6f6265;
 		--accent-blue: #7796cb;
 		--yellow: #ffeed6;
 	}
@@ -88,8 +88,15 @@ const { title } = Astro.props;
 	}
 
 	code {
-		font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-			DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+		font-family:
+			Menlo,
+			Monaco,
+			Lucida Console,
+			Liberation Mono,
+			DejaVu Sans Mono,
+			Bitstream Vera Sans Mono,
+			Courier New,
+			monospace;
 		color: var(--accent-blue);
 		width: 100%;
 		background-color: black;

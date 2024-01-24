@@ -4,8 +4,10 @@ export default async (request, context) => {
 	// Only allow requests from our own domains
 	let url = request.headers.get("origin");
 
-	let allowedUrlsRegex =
-		/^(https?:\/\/)?(localhost(:\d+)?|([a-zA-Z0-9-]+\.)?contenda\.co|contenda\.netlify\.app|contenda-platty-plat\.netlify\.app|contenda-test-platty-plat\.netlify\.app|([a-zA-Z0-9-]+\.)?brainstory\.ai|brainstory\.netlify\.app)(:[0-9]+)?$/;
+	// New regex, allow for https://jam-share-pear-markdown.netlify.app and localhost:8000
+	let allowedUrlsRegex = new RegExp(
+		"https://jam-share-pear-markdown.netlify.app|localhost:8000"
+	);
 
 	// Handle preflight requests
 	if (request.method === "OPTIONS" && allowedUrlsRegex.test(url)) {

@@ -4,9 +4,8 @@ Share Pear is a platform built with Astro, Netlify On-Demand Builders, and Edge
 Functions to consume markdown content and generate public HTML pages from that
 content!
 
-[This is the original Share Pear repository](https://github.com/Contenda-Team/share-pear)!
-
-[Here's a talk about how it works!](https://cfe.dev/sessions/jamdev2024-sharing-is-pearing/)
+- [This is the original Share Pear repository](https://github.com/Contenda-Team/share-pear)!
+- [Here's a talk about how it works](https://cfe.dev/sessions/jamdev2024-sharing-is-pearing/)!
 
 ### 🏃‍♂️ How to run the repo locally
 

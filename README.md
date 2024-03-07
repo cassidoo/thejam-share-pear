@@ -6,6 +6,8 @@ content!
 
 [This is the original Share Pear repository](https://github.com/Contenda-Team/share-pear)!
 
+[Here's a talk about how it works!](https://cfe.dev/sessions/jamdev2024-sharing-is-pearing/)
+
 ### 🏃‍♂️ How to run the repo locally
 
 1. Clone the repo
